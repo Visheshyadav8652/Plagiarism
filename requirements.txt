@@ -1,0 +1,21 @@
+# basic ML + serving
+tensorflow>=2.10.0
+numpy
+pandas
+scikit-learn
+nltk
+# for tokenizer / preprocessing
+keras
+# UI
+gradio>=3.0
+# useful tools
+tqdm
+# optional: if you want embedding-based similarity (better for plagiarism)
+sentence-transformers
+# optional for smaller TFLite inference on non-TF systems
+# tflite-runtime (install per platform if you need it)
+
+
+# dev / utils
+pytest
+black
